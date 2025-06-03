@@ -62,8 +62,7 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 <p>
   <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
 </p>
 
 - Developed **custom Game Boy cartridges** (hardware + embedded C)
