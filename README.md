@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Miles Howell
+# Hello! I'm Miles Howell
 
 Welcome to my GitHub!
 
