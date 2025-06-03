@@ -10,61 +10,91 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 
 ## 🛠️ Tools & Languages
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" alt="Python Badge"/>
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript Badge"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5 Badge"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3 Badge"/>
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C/C++ Badge"/>
-  <img src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white" alt="Django Badge"/>
-  <img src="https://img.shields.io/badge/Tkinter-GUI-4B8BBE?logo=python&logoColor=white" alt="Tkinter Badge"/>
-  <img src="https://img.shields.io/badge/Linux-Arch%20%2F%20Ubuntu-333333?logo=linux&logoColor=white" alt="Linux Badge"/>
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git Badge"/>
-  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" alt="Wireshark Badge"/>
-  <img src="https://img.shields.io/badge/Nmap-Cybersecurity-008891?logo=gnuprivacyguard&logoColor=white" alt="Nmap Badge"/>
-  <img src="https://img.shields.io/badge/Metasploit-Framework-blueviolet?logo=protonmail&logoColor=white" alt="Metasploit Badge"/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tkinter-4B8BBE?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-008891?logo=gnuprivacyguard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-6c33c0?logo=protonmail&logoColor=white" />
 </p>
 
 ---
 
 ## 🧠 Core Technical Skills
 
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="Scikit-learn Badge"/>
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" alt="Pandas Badge"/>
-  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" alt="NumPy Badge"/>
-  <img src="https://img.shields.io/badge/matplotlib-3776AB?logo=python&logoColor=white" alt="Matplotlib Badge"/>
-  <img src="https://img.shields.io/badge/NLTK-2E8B57?logo=python&logoColor=white" alt="NLTK Badge"/>
-  <img src="https://img.shields.io/badge/SpaCy-6A5ACD?logo=spacy&logoColor=white" alt="SpaCy Badge"/>
-  <img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow?logo=huggingface&logoColor=black" alt="Transformers Badge"/>
-  <img src="https://img.shields.io/badge/SentenceTransformers-B8B8FF?logo=python&logoColor=black" alt="SentenceTransformers Badge"/>
+### 🐍 Python (Primary Language)
+<p>
+  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/matplotlib-11557c?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/tkinter-4B8BBE?logo=python&logoColor=white" />
 </p>
 
-### 🐍 Python (Primary Language)
 - Focused on **ML, NLP, and automation**
-- Key tools & libraries:
-  - `scikit-learn`, `pandas`, `numpy`, `matplotlib`
-  - `nltk`, `spacy`, `transformers`, `sentence-transformers`
-  - `tkinter` for custom-built GUI tools
-- End-to-end experience with data prep, modeling, and visualization
+- Key tools & libraries include modeling, preprocessing, and custom GUI app design
+- End-to-end experience with data preparation, training, and visualization
+
+---
 
 ### 🌐 Web Development
-- HTML5, CSS3, JavaScript (ES6+), JSON, SVG
-- SPA architecture, API design, accessibility & performance optimization
-- Django for backend workflows and data-driven applications
-- Built an internal **employee directory app** with database syncing, CSV imports, and mobile-optimized UI
+<p>
+  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
+</p>
+
+- SPA architecture, RESTful APIs, and responsive design
+- Django backends with integrated CMS-like functionality
+- Designed and deployed full-stack tools like an internal **employee directory app**
+
+---
 
 ### ⚙️ Systems & Embedded
-- **C / C++**: Developed custom Game Boy game cartridges from scratch (hardware + embedded software)
-- Experience with memory management, hardware interfacing, and low-level debugging
-- Familiar with Java for OOP and application development
+<p>
+  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
+</p>
+
+- Developed **custom Game Boy cartridges** (hardware + embedded C)
+- Experience with memory-constrained systems and debugging
+- Familiar with Java and systems-level performance optimization
+
+---
 
 ### 🛡️ Cybersecurity
-- Network scanning and enumeration with `nmap`
-- Pen testing & exploit dev with `Metasploit`
-- Traffic analysis & protocol debugging using `Wireshark`
-- Familiar with OWASP Top 10 and secure coding practices
-- Built learning modules and labs for one of Missouri’s first high school cybersecurity courses
+<p>
+  <img src="https://img.shields.io/badge/Nmap-008891?logo=gnuprivacyguard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-6c33c0?logo=protonmail&logoColor=white" />
+</p>
+
+- Pen testing with Metasploit, packet inspection with Wireshark
+- Familiar with OWASP Top 10 and ethical hacking workflows
+- Co-developed one of Missouri's first high school cybersecurity courses
+
+---
+
+### 🧠 Machine Learning / NLP
+<p>
+  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLTK-2e8b57?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SpaCy-6a5acd?logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/SentenceTransformers-B8B8FF?logo=python&logoColor=black" />
+</p>
+
+- NLP projects using tokenization, embeddings, and semantic similarity
+- Built vectorized pipelines with SBERT and spaCy for internal search tools
+- Fine-tuned Transformers for small-scale inference and text classification
 
 ---
 
@@ -73,18 +103,19 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 - 🏆 **Hack4Good (Springfield, MO)**  
   🥇 1st Place – 2017  
   🥈 2nd Place – 2018  
-  Community software hackathon focused on meaningful, time-boxed problem solving
+  Built time-sensitive community software solutions under real-world pressure
 
-- 🤖 **FIRST LEGO League (FLL)**  
+- 🤖 **FIRST LEGO League**  
   Missouri State Qualifier – 2013 & 2014  
-  Early experience in robotics, teamwork, and real-world engineering challenges
+  Robotics and systems thinking at an early age
 
 - 🎓 **Republic High School Programming Club President**  
-  Led projects integrating software with 3D-printed systems  
-  Helped launch Missouri's first Cybersecurity high school course
+  Helped launch Missouri's first high school cybersecurity curriculum  
+  Built engineering tools to support 3D-printed prosthetics and device testing
 
-- 🎓 **ML/AI SIG Director @ University of Missouri - Colombia**  
-  Taught applied machine learning to undergraduates  
+- 🎓 **ML/AI SIG Director @ University of Missouri - Columbia**  
+  Taught applied machine learning to undergrads  
+  Collaborated on assistive AI with the campus robotics team
 
 ---
 
@@ -104,6 +135,6 @@ Reach out through my site → [**plannedpixel.com**](https://www.plannedpixel.co
 
 ---
 
-[![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell)](https://github.com/anuraghazra/github-readme-stats)
+[![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 > *"A good system isn’t just efficient — it feels like it was made for you."*
