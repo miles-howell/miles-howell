@@ -62,6 +62,8 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 <p>
   <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" />
+
 </p>
 
 - Developed **custom Game Boy cartridges** (hardware + embedded C)
@@ -75,6 +77,8 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
   <img src="https://img.shields.io/badge/Nmap-008891?logo=gnuprivacyguard&logoColor=white" />
   <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/Metasploit-6c33c0?logo=protonmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-268BEE?logo=kalilinux&logoColor=white" />
+
 </p>
 
 - Pen testing with Metasploit, packet inspection with Wireshark
