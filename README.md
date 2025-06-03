@@ -29,6 +29,17 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 
 ## 🧠 Core Technical Skills
 
+<p align="left">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" alt="Scikit-learn Badge"/>
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" alt="Pandas Badge"/>
+  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" alt="NumPy Badge"/>
+  <img src="https://img.shields.io/badge/matplotlib-3776AB?logo=python&logoColor=white" alt="Matplotlib Badge"/>
+  <img src="https://img.shields.io/badge/NLTK-2E8B57?logo=python&logoColor=white" alt="NLTK Badge"/>
+  <img src="https://img.shields.io/badge/SpaCy-6A5ACD?logo=spacy&logoColor=white" alt="SpaCy Badge"/>
+  <img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow?logo=huggingface&logoColor=black" alt="Transformers Badge"/>
+  <img src="https://img.shields.io/badge/SentenceTransformers-B8B8FF?logo=python&logoColor=black" alt="SentenceTransformers Badge"/>
+</p>
+
 ### 🐍 Python (Primary Language)
 - Focused on **ML, NLP, and automation**
 - Key tools & libraries:
