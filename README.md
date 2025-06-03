@@ -1,5 +1,7 @@
 # Hello! I'm Miles Howell
 
+
+[![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell)](https://github.com/anuraghazra/github-readme-stats)
 Welcome to my GitHub!
 
 I'm a developer with a strong foundation in mathematics, physics, and systems engineering — now channeling that experience into **machine learning, cybersecurity**, and **cleanly-crafted software**. Whether it's launching production-ready web apps or diving deep into packet analysis and model tuning, I build things that work *and* make sense.
