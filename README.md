@@ -63,7 +63,7 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 
 - Pen testing with Metasploit, packet inspection with Wireshark
 - Familiar with OWASP Top 10 and ethical hacking workflows
-- Co-developed one of Missouri's first high school cybersecurity courses
+- Contributed to developing Missouri's first high school cybersecurity course
 
 ---
 
