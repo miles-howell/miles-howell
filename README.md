@@ -8,25 +8,6 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 
 ---
 
-## 🛠️ Tools & Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tkinter-4B8BBE?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-008891?logo=gnuprivacyguard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Metasploit-6c33c0?logo=protonmail&logoColor=white" />
-</p>
-
----
-
 ## 🧠 Core Technical Skills
 
 ### 🐍 Python (Primary Language)
