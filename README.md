@@ -82,7 +82,7 @@ Currently, I'm running **Planned Pixel Studio**, a boutique web design company f
 
 ---
 
-## 🧬 Academic & Competition Highlights
+## 🧬 Academic & Competitive Highlights
 
 - 🏆 **Hack4Good (Springfield, MO)**  
   🥇 1st Place – 2017  
