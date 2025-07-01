@@ -2,9 +2,9 @@
 
 Welcome to my GitHub!
 
-I'm a developer with a strong foundation in mathematics, physics, and systems engineering — now channeling that experience into **machine learning, cybersecurity**, and **cleanly-crafted software**. Whether it's launching production-ready web apps or diving deep into packet analysis and model tuning, I build things that work *and* make sense.
+I'm a developer with a strong foundation in mathematics, physics, and systems engineering — now channeling that experience into **machine learning, cybersecurity**, and **cleanly-crafted software**. Whether it's launching production-ready web apps or diving deep into packet analysis and model tuning, I build things that work.
 
-Currently, I'm running **Planned Pixel Studio**, a boutique web design company focused on brand-forward, conversion-ready websites for small businesses and creatives.
+Currently, I'm running **Planned Pixel Studio**, a web design company focused on brand-forward, conversion-ready websites for small businesses and creatives.
 
 ---
 
