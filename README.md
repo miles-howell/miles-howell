@@ -121,4 +121,3 @@ Reach out through my site → [**plannedpixel.com**](https://www.plannedpixel.co
 
 [![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-> *"A good system isn’t just efficient — it feels like it was made for you."*
