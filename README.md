@@ -1,123 +1,91 @@
-# Hello! I'm Miles Howell
-
+Hello! I'm Miles Howell
 Welcome to my GitHub!
 
-I'm a developer with a strong foundation in mathematics, physics, and systems engineering — now channeling that experience into **machine learning, cybersecurity**, and **cleanly-crafted software**. Whether it's launching production-ready web apps or diving deep into packet analysis and model tuning, I build things that work.
+I'm a machine learning developer and founder with a background in mathematics, physics, and systems engineering. I'm passionate about building intelligent systems that solve real-world problems.
 
-Currently, I'm running **Planned Pixel Studio**, a web design company focused on brand-forward, conversion-ready websites for small businesses and creatives.
+Currently, I'm leading Planned Pixel in its pivot from a web design studio to an AI-driven product company. My primary focus is on developing a multi-modal AI system at the intersection of computer vision and sentiment analysis. Our goal is to provide powerful marketing insights for small and medium-sized businesses, leveraging cutting-edge models to understand audience engagement in ways that were previously only accessible to large enterprises.
 
----
+I document my technical journey, explore ML concepts, and share my thoughts on technology and society on my blog: blog.plannedpixel.com.
 
-## 🧠 Core Technical Skills
+🧠 Core Expertise: Machine Learning & AI
+My main focus is on building and deploying end-to-end machine learning solutions.
 
-### 🐍 Python (Primary Language)
+🐍 Python & ML Ecosystem
 <p>
-  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/matplotlib-11557c?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/tkinter-4B8BBE?logo=python&logoColor=white" />
+  <img src="https://www.google.com/search?q=https://img.shields.io/badge/PyTorch-EE4C2C%3Flogo%3Dpytorch%26logoColor%3Dwhite" />
+  <img src="https://www.google.com/search?q=https://img.shields.io/badge/TensorFlow-FF6F00%3Flogo%3Dtensorflow%26logoColor%3Dwhite" />
+  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
+  <img src="https://www.google.com/search?q=https://img.shields.io/badge/OpenCV-5C3EE8%3Flogo%3Dopencv%26logoColor%3Dwhite" />
+<br/>
+  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/matplotlib-11557c?logo=python&logoColor=white" />
 </p>
 
-- Focused on **ML, NLP, and automation**
-- Key tools & libraries include modeling, preprocessing, and custom GUI app design
-- End-to-end experience with data preparation, training, and visualization
+Deep Learning & Computer Vision: Building and fine-tuning models for tasks like image classification, object detection, and saliency mapping.
 
----
+Multi-Modal Systems: Integrating vision and language models (NLP) to generate comprehensive insights from complex data.
 
-### 🌐 Web Development
+Data Science: End-to-end experience with data preprocessing, feature engineering, model training, validation, and visualization.
+
+MLOps: Experience in creating pipelines for deploying, monitoring, and maintaining models in production environments.
+
+🛠️ Foundational & Supporting Skills
+My ML work is supported by a strong foundation in full-stack development and systems engineering.
+
+🌐 Web Development
 <p>
-  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
 </p>
 
-- SPA architecture, RESTful APIs, and responsive design
-- Django backends with integrated CMS-like functionality
-- Designed and deployed full-stack tools like an internal **employee directory app**
+Building robust backends with Django and RESTful APIs to serve ML models.
 
----
+Creating intuitive front-ends for users to interact with AI-powered tools.
 
-### ⚙️ Systems & Embedded
+🛡️ Cybersecurity & Systems
 <p>
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-268BEE?logo=kalilinux&logoColor=white" />
 </p>
 
-- Developed **custom Game Boy cartridges** (hardware + embedded C)
-- Experience with memory-constrained systems and debugging
-- Familiar with Java and systems-level performance optimization
+Ensuring the security and integrity of data pipelines and deployed applications.
 
----
+Experience with low-level programming and memory-constrained environments, valuable for model optimization.
 
-### 🛡️ Cybersecurity
-<p>
-  <img src="https://img.shields.io/badge/Nmap-008891?logo=gnuprivacyguard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Metasploit-6c33c0?logo=protonmail&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali_Linux-268BEE?logo=kalilinux&logoColor=white" />
+🧬 Academic & Competitive Highlights
+🏆 Hack4Good (Springfield, MO)  
+  🥇 1st Place – 2017  
+  🥈 2nd Place – 2018  
+  Built time-sensitive community software solutions under real-world pressure
 
-</p>
+🤖 FIRST LEGO League  
+  Missouri State Qualifier – 2013 & 2014  
+  Robotics and systems thinking at an early age
 
-- Pen testing with Metasploit, packet inspection with Wireshark
-- Familiar with OWASP Top 10 and ethical hacking workflows
-- Contributed to the development of Missouri's first high school cybersecurity course
+🎓 Republic High School Programming Club President  
+  Helped launch Missouri's first high school cybersecurity curriculum  
+  Built engineering tools to support 3D-printed prosthetics and device testing
 
----
+🎓 ML/AI SIG Director @ University of Missouri - Columbia  
+  Taught applied machine learning to undergrads  
+  Collaborated on assistive AI with the campus robotics team
 
-### 🧠 Machine Learning / NLP
-<p>
-  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLTK-2e8b57?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SpaCy-6a5acd?logo=spacy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/SentenceTransformers-B8B8FF?logo=python&logoColor=black" />
-</p>
+🔭 Let's Collaborate
+I'm actively seeking a passionate, technically skilled collaborator to help push the boundaries of my current computer vision and AI marketing project. If you have a strong background in ML, computer vision, or multi-modal systems and are excited by this mission, I'd love to connect.
 
-- NLP projects using tokenization, embeddings, and semantic similarity
-- Built vectorized pipelines with SBERT and spaCy for internal search tools
-- Fine-tuned Transformers for small-scale inference and text classification
+My long-term goal is to specialize in human-centered AI, and this project is the first major step.
 
----
+📫 Connect With Me
+Blog: blog.plannedpixel.com
 
-## 🧬 Academic & Competitive Highlights
+Company: plannedpixel.com
 
-- 🏆 **Hack4Good (Springfield, MO)**  
-  🥇 1st Place – 2017  
-  🥈 2nd Place – 2018  
-  Built time-sensitive community software solutions under real-world pressure
+LinkedIn: [Link to your LinkedIn Profile]
 
-- 🤖 **FIRST LEGO League**  
-  Missouri State Qualifier – 2013 & 2014  
-  Robotics and systems thinking at an early age
-
-- 🎓 **Republic High School Programming Club President**  
-  Helped launch Missouri's first high school cybersecurity curriculum  
-  Built engineering tools to support 3D-printed prosthetics and device testing
-
-- 🎓 **ML/AI SIG Director @ University of Missouri - Columbia**  
-  Taught applied machine learning to undergrads  
-  Collaborated on assistive AI with the campus robotics team
-
----
-
-## 🔭 Current Projects & Goals
-
-- Helping small businesses stand out with handcrafted websites at [**Planned Pixel Studio**](https://www.plannedpixel.com)
-- Building real-world ML tools with strong UX integration
-- Improving open-source presence with documented, focused projects
-- Long-term goal: specialize in **human-centered AI**, **LLMs**, or **assistive tech systems**
-
----
-
-## 📫 Connect With Me
-
-Got a project, challenge, or idea?  
-Reach out through my site → [**plannedpixel.com**](https://www.plannedpixel.com)
-
----
-
-[![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
+Got a project, an idea, or want to discuss a collaboration? Don't hesitate to reach out!
