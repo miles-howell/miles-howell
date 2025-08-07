@@ -64,22 +64,22 @@ My ML work is supported by a strong foundation in full-stack development and sys
 
 ## 🧬 Academic & Competitive Highlights
 
-- 🏆 **Hack4Good (Springfield, MO)**  
-- 🥇 1st Place – 2017  
-- 🥈 2nd Place – 2018  
-- Built time-sensitive community software solutions under real-world pressure
+-   🏆 **Hack4Good (Springfield, MO)**
+    -   🥇 1st Place – 2017
+    -   🥈 2nd Place – 2018
+    -   *Built time-sensitive community software solutions under real-world pressure.*
 
-- 🤖 **FIRST LEGO League**  
-- Missouri State Qualifier – 2013 & 2014  
-- Robotics and systems thinking at an early age
+-   🤖 **FIRST LEGO League**
+    -   Missouri State Qualifier – 2013 & 2014
+    -   *Focused on robotics and systems thinking at an early age.*
 
-- 🎓 **Republic High School Programming Club President**  
-- Helped launch Missouri's first high school cybersecurity curriculum  
-- Built engineering tools to support 3D-printed prosthetics and device testing
+-   🎓 **Republic High School Programming Club President**
+    -   Helped launch Missouri's first high school cybersecurity curriculum.
+    -   Built engineering tools to support 3D-printed prosthetics and device testing.
 
-- 🎓 **ML/AI SIG Director @ University of Missouri - Columbia**  
-- Taught applied machine learning to undergrads  
-- Collaborated on assistive AI with the campus robotics team
+-   🎓 **ML/AI SIG Director @ University of Missouri - Columbia**
+    -   Taught applied machine learning to undergrads.
+    -   Collaborated on assistive AI with the campus robotics team.
 
 ---
 
