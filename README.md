@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&background=000000&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hi!;I'm+Miles+Howell)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hi!;I'm+Miles+Howell)](https://git.io/typing-svg)
 
 I'm a machine learning developer and founder with a background in mathematics, physics, and systems engineering. I'm passionate about building intelligent systems that solve real-world problems.
 
