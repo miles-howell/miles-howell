@@ -2,10 +2,6 @@
 
 I'm a machine learning developer and founder with a background in mathematics, physics, and systems engineering. I'm passionate about building intelligent systems that solve real-world problems.
 
-Currently, I'm leading **[Planned Pixel](https://www.plannedpixel.com)** in its pivot from a web design studio to an AI-driven product company. My primary focus is on developing a **multi-modal AI system** at the intersection of **computer vision and sentiment analysis**. Our goal is to provide powerful marketing insights for small and medium-sized businesses, leveraging cutting-edge models to understand audience engagement in ways that were previously only accessible to large enterprises.
-
-I document my technical journey, explore ML concepts, and share my thoughts on technology and society on my blog: **[blog.plannedpixel.com](https://blog.plannedpixel.com)**.
-
 ---
 
 ## 🧠 Core Expertise: Machine Learning & AI
@@ -78,23 +74,6 @@ My ML work is supported by a strong foundation in full-stack development and sys
 -   🎓 **ML/AI SIG Director @ University of Missouri - Columbia**
     -   Taught applied machine learning to undergrads.
     -   Collaborated on assistive AI with the campus robotics team.
-
----
-
-## 🔭 Let's Collaborate
-
-I'm actively seeking a passionate, technically skilled collaborator to help push the boundaries of my current computer vision and AI marketing project. If you have a strong background in ML, computer vision, or multi-modal systems and are excited by this mission, I'd love to connect.
-
-My long-term goal is to specialize in **human-centered AI**, and this project is the first major step.
-
----
-
-## 📫 Connect With Me
-
--   **Blog:** [**blog.plannedpixel.com**](https://blog.plannedpixel.com)
--   **Company:** [**plannedpixel.com**](https://www.plannedpixel.com)
-
-Got a project, an idea, or want to discuss a collaboration? Don't hesitate to reach out!
 
 ---
 
