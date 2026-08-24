@@ -1,79 +1,67 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hi!;I'm+Miles+Howell)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hey%2C+I'm+Miles;I+build+things+with+AI)](https://git.io/typing-svg)
 
-I'm a machine learning developer and founder with a background in mathematics, physics, and systems engineering. I'm passionate about building intelligent systems that solve real-world problems.
-
----
-
-## 🧠 Core Expertise: Machine Learning & AI
-
-My main focus is on building and deploying end-to-end machine learning solutions.
-
-### 🐍 Python & ML Ecosystem
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/matplotlib-11557c?logo=python&logoColor=white" />
-</p>
-
--   **Deep Learning & Computer Vision:** Building and fine-tuning models for tasks like image classification, object detection, and saliency mapping.
--   **Multi-Modal Systems:** Integrating vision and language models (NLP) to generate comprehensive insights from complex data.
--   **Data Science:** End-to-end experience with data preprocessing, feature engineering, model training, validation, and visualization.
--   **MLOps:** Experience in creating pipelines for deploying, monitoring, and maintaining models in production environments.
+I'm a machine learning developer and founder with a math/physics/systems-engineering background. These days that mostly means building with LLMs and agents — but I still like getting my hands dirty with "classic" ML, computer vision, and the infra that holds it all together.
 
 ---
 
-## 🛠️ Foundational & Supporting Skills
+## 🤖 What I'm into right now
 
-My ML work is supported by a strong foundation in full-stack development and systems engineering.
+LLMs moved fast the last couple years, and I've been trying to keep pace — going from "call an API, get text back" to building actual agentic systems: multi-step reasoning, tool use, RAG pipelines, and orchestration across models.
 
-### 🌐 Web Development
 <p>
-  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vector_DBs-orange" />
 </p>
 
--   Building robust backends with Django and RESTful APIs to serve ML models.
--   Creating intuitive front-ends for users to interact with AI-powered tools.
-
-### 🛡️ Cybersecurity & Systems
-<p>
-  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali_Linux-268BEE?logo=kalilinux&logoColor=white" />
-</p>
-
--   Ensuring the security and integrity of data pipelines and deployed applications.
--   Experience with low-level programming and memory-constrained environments, valuable for model optimization.
+-   **Agentic systems:** tool-calling, multi-agent orchestration, giving models real access to real things.
+-   **RAG & retrieval:** grounding models in actual data instead of hoping they remember it correctly.
+-   **Prompt & context engineering:** the unglamorous work that decides whether any of the above actually works.
 
 ---
 
-## 🧬 Academic & Competitive Highlights
+## 🧠 The ML foundation underneath all that
 
--   🏆 **Hack4Good (Springfield, MO)**
-    -   🥇 1st Place – 2017
-    -   🥈 2nd Place – 2018
-    -   *Built time-sensitive community software solutions under real-world pressure.*
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
+</p>
 
--   🤖 **FIRST LEGO League**
-    -   Missouri State Qualifier – 2013 & 2014
-    -   *Focused on robotics and systems thinking at an early age.*
+Before "AI" meant chatbots, it meant training models — and I still do plenty of that: computer vision (image classification, object detection, saliency mapping), multi-modal systems that combine vision and language, and the full data-science grind from preprocessing to deployment. MLOps included — someone has to keep these things running in production.
 
--   🎓 **Republic High School Programming Club President**
-    -   Helped launch Missouri's first high school cybersecurity curriculum.
-    -   Built engineering tools to support 3D-printed prosthetics and device testing.
+---
 
--   🎓 **ML/AI SIG Director @ University of Missouri - Columbia**
-    -   Taught applied machine learning to undergrads.
-    -   Collaborated on assistive AI with the campus robotics team.
+## 🛠️ Everything else that makes it ship
+
+Models don't matter if nobody can use them, so I do full-stack work too.
+
+<p>
+  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-f7df1e?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
+</p>
+
+-   Backends and APIs (Django) that serve models to actual users.
+-   Front-ends that make AI tools usable instead of just impressive in a demo.
+-   A systems/security background (low-level programming, Wireshark, Kali) that comes in handy when you're the one responsible for the whole pipeline, not just the model.
+
+---
+
+## 🎓 Some things I'm proud of
+
+-   🏆 **Hack4Good (Springfield, MO)** — 🥇 1st Place 2017, 🥈 2nd Place 2018. Built community software under real deadline pressure.
+-   🤖 **FIRST LEGO League** — Missouri State Qualifier, 2013 & 2014. Where the systems-thinking habit started.
+-   🎓 **Republic High School Programming Club President** — helped launch Missouri's first high school cybersecurity curriculum, built tools for 3D-printed prosthetics and device testing.
+-   🎓 **ML/AI SIG Director @ University of Missouri – Columbia** — taught applied ML to undergrads, worked with the campus robotics team on assistive AI.
 
 ---
 
