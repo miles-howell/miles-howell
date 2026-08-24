@@ -1,60 +1,61 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hi!;I'm+Miles+Howell)](https://git.io/typing-svg)
 
-I build machine learning systems. Background in math, physics, and systems engineering; currently a founder, which mostly means I do the ML *and* the Django app *and* the deploy.
+I replace the old internal system that everybody depends on and nobody wants to touch.
 
-I got into this through computer vision — classifiers, detection, saliency maps, the usual. The job looks different now. Most of the hard problems moved out of the model and into everything around it.
+That's most of what I do now. Somebody's business runs on an undocumented ASP.NET app, a Microsoft Access database, or a spreadsheet that one person maintains, and it can't keep going — but it also can't break for a single day. I rebuild those in Django, carefully, and try to make the switchover boring.
 
----
-
-## What I'm actually working on
-
-- **Getting language models to do real work.** Tool use, structured output, multi-step flows that don't quietly fall apart on turn four. The model is rarely the bottleneck anymore — the scaffolding is.
-- **Evals instead of vibes.** If you can't measure a change, you're not improving the system, you're just moving it. This is the least glamorous part of the job and the one that decides whether anything ships.
-- **Retrieval that holds up.** Chunk, embed, cosine, pray is a demo, not a product. Most of the work is in the boring layer: what you index, how you rank, what you do when nothing matches.
-- **Knowing when *not* to reach for a model.** A lot of "AI features" are an expensive `if` statement wearing a trenchcoat. Recognizing those early is worth more than any architecture choice.
-
-Still a vision person underneath all of it. Multi-modal work is where the two halves finally stopped being separate skills.
+Background's in math, physics, and systems engineering. I came up through computer vision and reinforcement learning, and I still keep a foot in it.
 
 ---
 
-## What I reach for
+### How I work
 
-Python for basically everything — **PyTorch**, **Transformers**, **pandas**, **numpy**, **OpenCV** when there are pixels involved. **Django** and REST APIs when the model needs somewhere to live and someone to talk to. **C/C++** and **Linux** underneath when things need to be small or fast, which happens more often than you'd expect once you're paying for inference.
+Most of the difficulty in this kind of project isn't writing the new thing. It's proving you understood the old one.
 
-Security background from the systems side — enough **Wireshark** and **Kali** to be appropriately paranoid about what my pipelines are handling and what my endpoints are exposing.
+So I port legacy queries close to verbatim before I improve anything, and when I find what looks like a bug in the original — a `CASE` that should say `AND` instead of `OR`, a join that quietly drops rows — I leave it, mark it `QUIRK`, and go ask someone. Production behavior may depend on that bug. "Obviously wrong" and "safe to change" aren't the same claim, and the second one needs evidence.
 
----
+The other half is admitting what I don't know. Reverse-engineering a legacy app means most of your questions have no one left to answer them, so I keep the open ones written down as **blockers to resolve, not details to invent.** A confidently wrong guess about how a system works is much more expensive than an unanswered question.
 
-## Some things I've built
+### Working alongside agents
 
-| | |
-|---|---|
-| [**Bridge-Crossing-RL-Sim**](https://github.com/miles-howell/Bridge-Crossing-RL-Sim) | Reinforcement learning sim — agents figuring out a crossing problem. |
-| [**Normalization-Simulation**](https://github.com/miles-howell/Normalization-Simulation) | Visualizing what normalization actually does to your data. |
-| [**fruit_classifier**](https://github.com/miles-howell/fruit_classifier) | Where a lot of people start. Worth keeping around. |
-| [**Sprite-Mapper**](https://github.com/miles-howell/Sprite-Mapper) | Tooling, because the tool is usually the real project. |
-| [**Window-Works**](https://github.com/miles-howell/Window-Works) | — |
-| [**Dashboard-Viewer**](https://github.com/miles-howell/Dashboard-Viewer) | — |
+The models got good enough that this is now a real part of how I build, so I write for them deliberately. Every serious project gets an `AGENTS.md`: what the system is, which decisions are already settled and shouldn't be relitigated, which legacy quirks are load-bearing, and — most importantly — which open questions an agent must **stop and ask** about instead of filling in with something plausible.
 
-<!-- TODO(miles): fill in the two blank rows, drop anything here you don't
-     want front and center, and add whatever the current main project is.
-     A profile README is only as good as its most recent honest line. -->
+That last part matters more the more sensitive the codebase is. On regulated data, the failure mode isn't an agent writing bad code; it's an agent writing *confident* code on top of an assumption nobody checked. Durable written context is the cheapest guardrail I've found.
 
 ---
 
-## Before all this
+### Things I've built
 
-Started early and competitively — FIRST LEGO League state qualifier in 2013 and 2014, then 1st and 2nd place at Hack4Good in Springfield, MO (2017, 2018), building community software against a clock.
+| Project | What it is |
+| :--- | :--- |
+| **[Vixxing](https://github.com/miles-howell/Vixxing)** | Stops help desk vishing. Attackers call IT, impersonate an employee, and talk an agent into resetting MFA — every "verification" question they're asked is a fact that leaks. This puts a TOTP possession check on the call itself: read me the six digits, or we're done. Django + PyOTP, with an honest write-up of its own threat model and limits. |
+| **[Bridge-Crossing-RL-Sim](https://github.com/miles-howell/Bridge-Crossing-RL-Sim)** | Hierarchical RL you can watch learn in the browser. A manager agent picks sub-goals, a worker executes them, and the usual failure is that their Q-estimates drift apart and poison each other. I fixed it with a profit-sharing reward — the worker earns a cut of whatever the manager's command actually gains — plus Hindsight Experience Replay. |
+| **[Window-Works](https://github.com/miles-howell/Window-Works)** | Interactive office floor plan. Find your desk, book a free one, and let admins redraw the map without going into the database. |
+| **[employee-database](https://github.com/miles-howell/employee-database)** | Company directory sitting on top of a legacy Access `.accdb`, sorted by real reporting hierarchy, with birthdays and work anniversaries on the front page. |
+| **[Dashboard-Viewer](https://github.com/miles-howell/Dashboard-Viewer)** | Desktop launcher for departmental dashboards. CustomTkinter, packaged to a single `.exe`, because "just open the file share" never actually works. |
 
-Ran the programming club at Republic High School and helped launch Missouri's first high school cybersecurity curriculum. Later directed the ML/AI SIG at **Mizzou**, teaching applied machine learning to undergrads and working on assistive AI with the campus robotics team.
+Day job is healthcare claims systems — EDI X12, PHI, and the kind of compliance work that makes you careful about what ends up in a log line. Most of that lives in private repos.
 
-Teaching a thing is still the fastest way I know to find out whether I understand it.
+<details>
+<summary><b>Where I came from</b></summary>
+
+<br>
+
+**FIRST LEGO League** — Missouri state qualifier, 2013 and 2014.
+
+**Hack4Good**, Springfield MO — 1st place 2017, 2nd place 2018. Community software, built against a clock.
+
+**Republic High School** — ran the programming club, helped launch Missouri's first high school cybersecurity curriculum, and built tooling for 3D-printed prosthetics and device testing.
+
+**University of Missouri–Columbia** — directed the ML/AI SIG, taught applied machine learning to undergrads, and worked on assistive AI with the campus robotics team. Teaching a thing is still the fastest way I know to find out whether I actually understand it.
+
+</details>
 
 ---
 
-## Say hi
+Python, Django, PyTorch, SQL Server, C/C++, Linux. Enough security background to be appropriately nervous about what my apps are holding.
 
-Open to talking about ML systems, weird retrieval problems, and whether your feature actually needs a model.
+Happy to talk shop — especially about migrations off systems nobody documented.
 
 <a href="https://github.com/miles-howell">
   <img src="https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&hide_border=true&theme=transparent#gh-light-mode-only" />
