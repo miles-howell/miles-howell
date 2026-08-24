@@ -1,80 +1,64 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3499&pause=649&color=019A47&center=true&vCenter=true&multiline=true&width=435&height=60&lines=Hi!;I'm+Miles+Howell)](https://git.io/typing-svg)
 
-I'm a machine learning developer and founder with a background in mathematics, physics, and systems engineering. I'm passionate about building intelligent systems that solve real-world problems.
+I build machine learning systems. Background in math, physics, and systems engineering; currently a founder, which mostly means I do the ML *and* the Django app *and* the deploy.
+
+I got into this through computer vision — classifiers, detection, saliency maps, the usual. The job looks different now. Most of the hard problems moved out of the model and into everything around it.
 
 ---
 
-## 🧠 Core Expertise: Machine Learning & AI
+## What I'm actually working on
 
-My main focus is on building and deploying end-to-end machine learning solutions.
+- **Getting language models to do real work.** Tool use, structured output, multi-step flows that don't quietly fall apart on turn four. The model is rarely the bottleneck anymore — the scaffolding is.
+- **Evals instead of vibes.** If you can't measure a change, you're not improving the system, you're just moving it. This is the least glamorous part of the job and the one that decides whether anything ships.
+- **Retrieval that holds up.** Chunk, embed, cosine, pray is a demo, not a product. Most of the work is in the boring layer: what you index, how you rank, what you do when nothing matches.
+- **Knowing when *not* to reach for a model.** A lot of "AI features" are an expensive `if` statement wearing a trenchcoat. Recognizing those early is worth more than any architecture choice.
 
-### 🐍 Python & ML Ecosystem
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-f7931e?logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/Transformers-ffd21f?logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/matplotlib-11557c?logo=python&logoColor=white" />
-</p>
-
--   **Deep Learning & Computer Vision:** Building and fine-tuning models for tasks like image classification, object detection, and saliency mapping.
--   **Multi-Modal Systems:** Integrating vision and language models (NLP) to generate comprehensive insights from complex data.
--   **Data Science:** End-to-end experience with data preprocessing, feature engineering, model training, validation, and visualization.
--   **MLOps:** Experience in creating pipelines for deploying, monitoring, and maintaining models in production environments.
+Still a vision person underneath all of it. Multi-modal work is where the two halves finally stopped being separate skills.
 
 ---
 
-## 🛠️ Foundational & Supporting Skills
+## What I reach for
 
-My ML work is supported by a strong foundation in full-stack development and systems engineering.
+Python for basically everything — **PyTorch**, **Transformers**, **pandas**, **numpy**, **OpenCV** when there are pixels involved. **Django** and REST APIs when the model needs somewhere to live and someone to talk to. **C/C++** and **Linux** underneath when things need to be small or fast, which happens more often than you'd expect once you're paying for inference.
 
-### 🌐 Web Development
-<p>
-  <img src="https://img.shields.io/badge/Django-092e20?logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-f7df1e?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=white" />
-</p>
-
--   Building robust backends with Django and RESTful APIs to serve ML models.
--   Creating intuitive front-ends for users to interact with AI-powered tools.
-
-### 🛡️ Cybersecurity & Systems
-<p>
-  <img src="https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/C/C++-00599C?logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-005498?logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali_Linux-268BEE?logo=kalilinux&logoColor=white" />
-</p>
-
--   Ensuring the security and integrity of data pipelines and deployed applications.
--   Experience with low-level programming and memory-constrained environments, valuable for model optimization.
+Security background from the systems side — enough **Wireshark** and **Kali** to be appropriately paranoid about what my pipelines are handling and what my endpoints are exposing.
 
 ---
 
-## 🧬 Academic & Competitive Highlights
+## Some things I've built
 
--   🏆 **Hack4Good (Springfield, MO)**
-    -   🥇 1st Place – 2017
-    -   🥈 2nd Place – 2018
-    -   *Built time-sensitive community software solutions under real-world pressure.*
+| | |
+|---|---|
+| [**Bridge-Crossing-RL-Sim**](https://github.com/miles-howell/Bridge-Crossing-RL-Sim) | Reinforcement learning sim — agents figuring out a crossing problem. |
+| [**Normalization-Simulation**](https://github.com/miles-howell/Normalization-Simulation) | Visualizing what normalization actually does to your data. |
+| [**fruit_classifier**](https://github.com/miles-howell/fruit_classifier) | Where a lot of people start. Worth keeping around. |
+| [**Sprite-Mapper**](https://github.com/miles-howell/Sprite-Mapper) | Tooling, because the tool is usually the real project. |
+| [**Window-Works**](https://github.com/miles-howell/Window-Works) | — |
+| [**Dashboard-Viewer**](https://github.com/miles-howell/Dashboard-Viewer) | — |
 
--   🤖 **FIRST LEGO League**
-    -   Missouri State Qualifier – 2013 & 2014
-    -   *Focused on robotics and systems thinking at an early age.*
-
--   🎓 **Republic High School Programming Club President**
-    -   Helped launch Missouri's first high school cybersecurity curriculum.
-    -   Built engineering tools to support 3D-printed prosthetics and device testing.
-
--   🎓 **ML/AI SIG Director @ University of Missouri - Columbia**
-    -   Taught applied machine learning to undergrads.
-    -   Collaborated on assistive AI with the campus robotics team.
+<!-- TODO(miles): fill in the two blank rows, drop anything here you don't
+     want front and center, and add whatever the current main project is.
+     A profile README is only as good as its most recent honest line. -->
 
 ---
 
-[![Miles' GitHub stats](https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+## Before all this
+
+Started early and competitively — FIRST LEGO League state qualifier in 2013 and 2014, then 1st and 2nd place at Hack4Good in Springfield, MO (2017, 2018), building community software against a clock.
+
+Ran the programming club at Republic High School and helped launch Missouri's first high school cybersecurity curriculum. Later directed the ML/AI SIG at **Mizzou**, teaching applied machine learning to undergrads and working on assistive AI with the campus robotics team.
+
+Teaching a thing is still the fastest way I know to find out whether I understand it.
+
+---
+
+## Say hi
+
+Open to talking about ML systems, weird retrieval problems, and whether your feature actually needs a model.
+
+<a href="https://github.com/miles-howell">
+  <img src="https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&hide_border=true&theme=transparent#gh-light-mode-only" />
+</a>
+<a href="https://github.com/miles-howell">
+  <img src="https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&hide_border=true&theme=dark&bg_color=00000000#gh-dark-mode-only" />
+</a>
