@@ -2,25 +2,25 @@
 
 I replace the old internal system that everybody depends on and nobody wants to touch.
 
-That's most of what I do now. Somebody's business runs on an undocumented ASP.NET app, a Microsoft Access database, or a spreadsheet that one person maintains, and it can't keep going — but it also can't break for a single day. I rebuild those in Django, carefully, and try to make the switchover boring.
+That's most of the job now. Somebody's business runs on an ASP.NET app whose author left in 2014, or an Access database sitting on a share drive, or a spreadsheet that one person in accounting maintains and nobody else can read. It can't keep going, and it also can't be down on Monday. I rebuild those in Django and try to make the cutover boring.
 
-Background's in math, physics, and systems engineering. I came up through computer vision and reinforcement learning, and I still keep a foot in it.
+Background's math, physics, and systems engineering. I came up through computer vision and RL, and I still poke at it.
 
 ---
 
 ### How I work
 
-Most of the difficulty in this kind of project isn't writing the new thing. It's proving you understood the old one.
+The hard part isn't building the new thing. It's proving I understood the old one.
 
-So I port legacy queries close to verbatim before I improve anything, and when I find what looks like a bug in the original — a `CASE` that should say `AND` instead of `OR`, a join that quietly drops rows — I leave it, mark it `QUIRK`, and go ask someone. Production behavior may depend on that bug. "Obviously wrong" and "safe to change" aren't the same claim, and the second one needs evidence.
+So the legacy queries get ported almost verbatim first, ugly parts included. When I hit something that looks like a bug — a `CASE` with an `OR` where it obviously wants `AND`, a join quietly eating rows — I don't fix it. I tag it `QUIRK`, write down what it actually does, and go find someone who remembers. About half the time it turns out three reports downstream have been relying on it for years.
 
-The other half is admitting what I don't know. Reverse-engineering a legacy app means most of your questions have no one left to answer them, so I keep the open ones written down as **blockers to resolve, not details to invent.** A confidently wrong guess about how a system works is much more expensive than an unanswered question.
+The rest is keeping a running list of what I don't know. Nobody's left to answer most questions about a twelve-year-old app, so the open ones go in a file and stay open until someone answers them. Guessing is how you ship something that looks correct for six weeks.
 
-### Working alongside agents
+### Working with agents
 
-The models got good enough that this is now a real part of how I build, so I write for them deliberately. Every serious project gets an `AGENTS.md`: what the system is, which decisions are already settled and shouldn't be relitigated, which legacy quirks are load-bearing, and — most importantly — which open questions an agent must **stop and ask** about instead of filling in with something plausible.
+I use them a lot, so every project gets an `AGENTS.md`: what the system does, what's already been decided and doesn't need re-arguing, which weird legacy behavior is load-bearing, and what to stop and ask about rather than fill in. It's mostly the same page I'd hand a new contractor on day one.
 
-That last part matters more the more sensitive the codebase is. On regulated data, the failure mode isn't an agent writing bad code; it's an agent writing *confident* code on top of an assumption nobody checked. Durable written context is the cheapest guardrail I've found.
+The stopping part is the part that earns its keep. On claims data I'm not that worried about a model writing bad code — bad code shows up fast. I'm worried about clean, plausible code sitting on an assumption nobody checked.
 
 ---
 
@@ -28,13 +28,13 @@ That last part matters more the more sensitive the codebase is. On regulated dat
 
 | Project | What it is |
 | :--- | :--- |
-| **[Vixxing](https://github.com/miles-howell/Vixxing)** | Stops help desk vishing. Attackers call IT, impersonate an employee, and talk an agent into resetting MFA — every "verification" question they're asked is a fact that leaks. This puts a TOTP possession check on the call itself: read me the six digits, or we're done. Django + PyOTP, with an honest write-up of its own threat model and limits. |
-| **[Bridge-Crossing-RL-Sim](https://github.com/miles-howell/Bridge-Crossing-RL-Sim)** | Hierarchical RL you can watch learn in the browser. A manager agent picks sub-goals, a worker executes them, and the usual failure is that their Q-estimates drift apart and poison each other. I fixed it with a profit-sharing reward — the worker earns a cut of whatever the manager's command actually gains — plus Hindsight Experience Replay. |
-| **[Window-Works](https://github.com/miles-howell/Window-Works)** | Interactive office floor plan. Find your desk, book a free one, and let admins redraw the map without going into the database. |
-| **[employee-database](https://github.com/miles-howell/employee-database)** | Company directory sitting on top of a legacy Access `.accdb`, sorted by real reporting hierarchy, with birthdays and work anniversaries on the front page. |
-| **[Dashboard-Viewer](https://github.com/miles-howell/Dashboard-Viewer)** | Desktop launcher for departmental dashboards. CustomTkinter, packaged to a single `.exe`, because "just open the file share" never actually works. |
+| **[Vixxing](https://github.com/miles-howell/Vixxing)** | Help desk vishing is the attack where someone calls IT, says they're locked out, and talks the agent into resetting their MFA. Every verification question the agent asks is a fact an attacker can go look up first. So instead: read me the six digits off your authenticator, or we're done. Django + PyOTP, with a README that's honest about what it doesn't cover. |
+| **[Bridge-Crossing-RL-Sim](https://github.com/miles-howell/Bridge-Crossing-RL-Sim)** | Hierarchical RL you can watch learn in a browser tab. A manager picks sub-goals, a worker carries them out, and the usual outcome is that they poison each other's Q-estimates. Gave the worker a cut of whatever the manager's command actually earned, added Hindsight Experience Replay, and it stopped falling apart. |
+| **[Window-Works](https://github.com/miles-howell/Window-Works)** | Interactive office floor plan. Find your desk, book an open one, and let admins redraw the map without anyone going into the database. |
+| **[employee-database](https://github.com/miles-howell/employee-database)** | Company directory sitting on top of a legacy Access `.accdb`, sorted by who actually reports to whom. Birthdays and work anniversaries are on the front page, because that's what people open it for. |
+| **[Dashboard-Viewer](https://github.com/miles-howell/Dashboard-Viewer)** | Desktop launcher for the department dashboards. CustomTkinter, packed into one `.exe`, because "it's on the share drive" has never once worked. |
 
-Day job is healthcare claims systems — EDI X12, PHI, and the kind of compliance work that makes you careful about what ends up in a log line. Most of that lives in private repos.
+Day job is healthcare claims — EDI X12, PHI, and enough compliance around it that I think about what's in a log line before I write it. Most of that lives in private repos.
 
 <details>
 <summary><b>Where I came from</b></summary>
@@ -47,7 +47,7 @@ Day job is healthcare claims systems — EDI X12, PHI, and the kind of complianc
 
 **Republic High School** — ran the programming club, helped launch Missouri's first high school cybersecurity curriculum, and built tooling for 3D-printed prosthetics and device testing.
 
-**University of Missouri–Columbia** — directed the ML/AI SIG, taught applied machine learning to undergrads, and worked on assistive AI with the campus robotics team. Teaching a thing is still the fastest way I know to find out whether I actually understand it.
+**University of Missouri–Columbia** — directed the ML/AI SIG, taught applied machine learning to undergrads, and worked on assistive AI with the campus robotics team. Nothing finds the parts you only half-understand like having to explain them to a room.
 
 </details>
 
@@ -55,7 +55,7 @@ Day job is healthcare claims systems — EDI X12, PHI, and the kind of complianc
 
 Python, Django, PyTorch, SQL Server, C/C++, Linux. Enough security background to be appropriately nervous about what my apps are holding.
 
-Happy to talk shop — especially about migrations off systems nobody documented.
+Happy to talk shop, especially about getting off a system nobody documented.
 
 <a href="https://github.com/miles-howell">
   <img src="https://github-readme-stats.vercel.app/api?username=miles-howell&show_icons=true&hide_border=true&theme=transparent#gh-light-mode-only" />
