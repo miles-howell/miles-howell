@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Miles Howell</title>
+  <desc id="desc">Miles Howell learns machine learning by building it from the math up. A single neuron is drawn by hand: three inputs, three weights, a sigmoid, one output, with the equation y = σ(w·x + b). The line "import torch" is struck through.</desc>
+
+  <rect width="1200" height="400" rx="24" fill="#0E0F11"/>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="88" fill="#8C8A84" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="3">AI · SECURITY · FIRST PRINCIPLES</text>
+    <text x="62" y="176" fill="#EEEAE1" font-size="78" font-weight="700" letter-spacing="-1.5">Miles Howell</text>
+    <text x="64" y="236" fill="#C9C5BC" font-size="27">I learn machine learning by building it</text>
+    <text x="64" y="272" fill="#C9C5BC" font-size="27">with nothing but the math.</text>
+
+    <g id="struck-import" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">
+      <text x="64" y="340" fill="#6E6C67">import torch</text>
+      <line x1="60" y1="332" x2="244" y2="332" stroke="#F2A33A" stroke-width="3" stroke-linecap="round"/>
+      <text x="268" y="340" fill="#55534F"># outsourced understanding</text>
+    </g>
+  </g>
+
+  <line x1="704" y1="64" x2="704" y2="336" stroke="#26282C" stroke-width="2"/>
+
+  <g id="neuron" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <g stroke="#4A4C51" stroke-width="2">
+      <line x1="770" y1="112" x2="948" y2="190"/>
+      <line x1="770" y1="190" x2="948" y2="190"/>
+      <line x1="770" y1="268" x2="948" y2="190"/>
+    </g>
+    <line x1="1022" y1="190" x2="1104" y2="190" stroke="#F2A33A" stroke-width="3"/>
+    <path d="M1104 182 L1118 190 L1104 198 Z" fill="#F2A33A"/>
+
+    <g fill="#0E0F11" stroke="#8C8A84" stroke-width="2">
+      <circle cx="752" cy="112" r="20"/>
+      <circle cx="752" cy="190" r="20"/>
+      <circle cx="752" cy="268" r="20"/>
+    </g>
+    <g fill="#C9C5BC" font-size="20" text-anchor="middle">
+      <text x="752" y="119">x1</text>
+      <text x="752" y="197">x2</text>
+      <text x="752" y="275">x3</text>
+    </g>
+    <g fill="#8C8A84" font-size="18">
+      <text x="842" y="132">w1</text>
+      <text x="842" y="181">w2</text>
+      <text x="842" y="252">w3</text>
+    </g>
+
+    <circle cx="985" cy="190" r="37" fill="#16171A" stroke="#F2A33A" stroke-width="3"/>
+    <text x="985" y="202" fill="#EEEAE1" font-size="34" text-anchor="middle" font-family="Georgia, serif" font-style="italic">σ</text>
+    <text x="985" y="254" fill="#8C8A84" font-size="18" text-anchor="middle">+ b</text>
+    <text x="1128" y="198" fill="#EEEAE1" font-size="22">y</text>
+
+    <text x="730" y="340" fill="#EEEAE1" font-size="26">y = σ(w·x + b)</text>
+  </g>
+</svg>

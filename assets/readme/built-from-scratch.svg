@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">Built from scratch</title>
+  <desc id="desc">Four pieces of work: 01 a single-neuron network that classifies fruit, written in high school; 02 a rework of Karpathy's min-char-rnn, high school; 03 Bridge-Crossing RL Sim, an ongoing reinforcement-learning experiment; 04 the ML/AI Special Interest Group, started and led in college.</desc>
+
+  <rect width="1200" height="660" rx="24" fill="#0E0F11"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="64" y="92" fill="#EEEAE1" font-size="42" font-weight="700" letter-spacing="-0.5">Built from scratch</text>
+    <text x="1136" y="92" fill="#6E6C67" font-size="18" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">0 high-level imports</text>
+  </g>
+
+  <g id="cards" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g fill="#16171A" stroke="#26282C" stroke-width="2">
+      <rect x="64" y="130" width="524" height="232" rx="14"/>
+      <rect x="612" y="130" width="524" height="232" rx="14"/>
+      <rect x="64" y="386" width="524" height="232" rx="14"/>
+      <rect x="612" y="386" width="524" height="232" rx="14"/>
+    </g>
+
+    <g id="card-neuron" transform="translate(96 130)">
+      <text x="0" y="52" fill="#F2A33A" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01 · HIGH SCHOOL</text>
+      <text x="0" y="98" fill="#EEEAE1" font-size="32" font-weight="700">Single-neuron network</text>
+      <text x="0" y="148" fill="#EEEAE1" font-size="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">y = σ(w·x + b)</text>
+      <text x="0" y="196" fill="#9A978F" font-size="21">One neuron, one job: classify fruit.</text>
+    </g>
+
+    <g id="card-rnn" transform="translate(644 130)">
+      <text x="0" y="52" fill="#F2A33A" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02 · HIGH SCHOOL</text>
+      <text x="0" y="98" fill="#EEEAE1" font-size="32" font-weight="700">min-char-rnn, reworked</text>
+      <text x="0" y="148" fill="#EEEAE1" font-size="22" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">h = tanh(Wxh·x + Whh·h + b)</text>
+      <text x="0" y="196" fill="#9A978F" font-size="21">Karpathy's character RNN, rebuilt by hand.</text>
+    </g>
+
+    <g id="card-rl" transform="translate(96 386)">
+      <text x="0" y="52" fill="#F2A33A" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03 · NOW</text>
+      <text x="0" y="98" fill="#EEEAE1" font-size="32" font-weight="700">Bridge-Crossing RL Sim</text>
+      <text x="0" y="148" fill="#EEEAE1" font-size="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">state → action → reward</text>
+      <text x="0" y="196" fill="#9A978F" font-size="21">Experimenting with new implementations.</text>
+    </g>
+
+    <g id="card-sig" transform="translate(644 386)">
+      <text x="0" y="52" fill="#F2A33A" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">04 · COLLEGE</text>
+      <text x="0" y="98" fill="#EEEAE1" font-size="32" font-weight="700">ML/AI SIG, founder</text>
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24">
+        <text x="0" y="148" fill="#6E6C67">import sklearn</text>
+        <line x1="-4" y1="140" x2="206" y2="140" stroke="#F2A33A" stroke-width="3" stroke-linecap="round"/>
+        <text x="226" y="148" fill="#EEEAE1">plain English</text>
+      </g>
+      <text x="0" y="196" fill="#9A978F" font-size="21">Teaching ML before the school offered it.</text>
+    </g>
+  </g>
+</svg>
